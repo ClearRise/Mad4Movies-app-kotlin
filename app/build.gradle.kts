@@ -65,7 +65,7 @@ configure<ApplicationExtension> {
         targetSdk = libs.versions.targetSdk.getInt()
         // Bump both for every release. versionName must stay >= the upstream Wholphin
         // version this is based on, because AppUpgradeHandler runs migrations by version.
-        versionCode = 62
+        versionCode = 63
         versionName = "1.1.1"
         testInstrumentationRunner = "com.github.damontecres.wholphin.test.WholphinTestRunner"
 
